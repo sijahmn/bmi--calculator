@@ -22,13 +22,13 @@ btn.addEventListener("click", function () {
     result.innerHTML = bmiReturn;
     let statement;
     if (bmiReturn > 24.9) {
-        statement = "OVER HEIGHT"
+        statement = "OVER WEIGHT"
     }
     else if (bmiReturn < 24.9 && bmiReturn > 18.5) {
         statement = "HEALTHY"
 
     } else {
-        statement = "UNDER HEIGHT"
+        statement = "UNDER WEIGHT"
     }
 
     resultStatement.innerHTML = `Your BMI STATUS is ${statement}`;
