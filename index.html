@@ -14,20 +14,22 @@
     <h1 class="heading">BMI CALCULATOR</h1>
 
     <div class="calculator-container">
-        <label for="input" class="name"></label>
-        <input id="weight" class="weight" type="text" value=" ">
+        <div class="weightDiv">
+            <label class="labelName">Enter WEIGHT in kg</label>
+            <input id="weight" class="weight" type="text" value=""><br>
+        </div>
+        <div class="heightDiv">
+            <label class="labelName">Enter HEIGHT in cm </label>
+            <input class="height" id="height" type="text" value=""><br>
+        </div>
 
-        <label for="input" class="name"></label>
-        <input class="height" id="height" type="text" value=" ">
-
-
-        <button class="btn-submit" id="btn-submit">Calculate</button>
+        <button class="btn-submit" id="btn-submit">CALCULATE</button>
 
     </div>
 
     <div class="result-container">
-        <h2 class="result" id="result"></h2>
-        <p class="result-statement" id="result-statement"></p>
+        <h2 class="result" id="result">BMI:</h2>
+        <p class="result-statement" id="result-statement">BMI STATUS</p>
     </div>
 
 
